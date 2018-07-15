@@ -130,4 +130,4 @@ client.on('guildDelete', guild => {
 });
 
 // Login
-client.login('NDYxNTI0NTIwMzY1MTk1Mjc0.DiwlFg.wgjj4OL3c2Bryeltp6AlKqGVKiQ')
+client.login(process.env.BOT_TOKEN)
