@@ -18,7 +18,7 @@ exports.run = (client, message, args, ops, tools) => {
       let tPlayed = stats.find(s => s.stat == 'timePlayed');
       let asTime = stats.find(s => s.stat == 'avgSurvivalTime');
 
-      let embed = new Discord.RichEmbed()
+      let embed2 = new Discord.RichEmbed()
       .setTitle("Fortnite Stats")
       .setAuthor(data.username)
       .setColor(0xffffff)
@@ -29,7 +29,7 @@ exports.run = (client, message, args, ops, tools) => {
       .addField("📊 | `Tempo jogado`", kills.value, true)
       .addField("📈 | `Tempo de sobrevivência`", kills.value, true)
 
-    message.channel.send(embed);
+    message.channel.send(embed2);
 
   }).catch(e => {
       console.log(e);
