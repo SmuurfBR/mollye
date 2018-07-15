@@ -6,9 +6,9 @@ exports.run = (client, message, args, ops, tools) => {
   message.delete();
   //!fortnite SmuurfBR PC
   let username = args[0];
-  let plataform = args[1] || "pc";
+  let platform = args[1] || "pc";
 
-  let data = ft.getInfo(username, plataform).then(data => {
+  let data = ft.getInfo(username, platform).then(data => {
 
       let stats = data.lifetimeStats;
       let kills = stats.find(s => s.stat == 'kills');
