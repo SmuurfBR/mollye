@@ -16,6 +16,7 @@
   "author": "SmuurfBR",
   "license": "ISC",
   "dependencies": {
+    "ascii-art": "^1.4.3",
     "axios": "^0.18.0",
     "battlegrounds": "^1.5.1",
     "chalk": "^2.4.1",
@@ -30,6 +31,7 @@
     "http": "0.0.0",
     "kitsu.js": "^2.0.0",
     "klasa": "^0.4.0",
+    "mathjs": "^5.0.3",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
     "ms": "^2.1.1",
