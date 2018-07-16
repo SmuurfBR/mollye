@@ -9,7 +9,7 @@ exports.run = (client, message, args, ops, tools) => {
   let platform = args[1] || "pc";
 
   let data = ft.user(username, platform).then(data => {
-  console.log(data)
+  console.log(lifetimeStats)
     
       let stats = data.lifetimeStats;
       let kills = stats.find(s => s.stat == 'kills');
